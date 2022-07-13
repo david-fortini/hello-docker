@@ -9,7 +9,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh ./get-docker.sh
 ```
 
-More info about installation here at [here](https://docs.docker.com/engine/install/ubuntu/)
+More info about installation can be found [here](https://docs.docker.com/engine/install/ubuntu/)
 
 ## How to run
 We give an arbitrary name `example1` so that docker can identify this container.
