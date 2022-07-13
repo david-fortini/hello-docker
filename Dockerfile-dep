@@ -1,0 +1,11 @@
+FROM python:3.6
+
+
+#to COPY the remote files at working directory in container
+COPY . .
+
+# install dependencies
+RUN pip install -r requirements.txt --disable-pip-version-check
+#CMD instruction should be used to run the program
+
+CMD [ "python", "show_ip.py"]
